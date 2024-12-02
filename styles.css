@@ -1,0 +1,116 @@
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        height: 100vh;
+    }
+
+    .center {
+        background-color: #6100a6;
+        border: 3px solid #fdfbd4;
+        padding: 20px;
+        position: relative;
+        box-shadow: -10px 0 20px rgba(0, 0, 0, 0.5), 10px 0 20px rgba(0, 0, 0, 0.5); /* Shadows applied to both sides */
+        display: flex;
+        justify-content: center;  
+        align-items: center;      
+        height: 100vh%;            
+    }
+
+    .right{
+        background: linear-gradient(to right, #9e26f5, #26033f);
+    }
+
+    .left{
+        background: linear-gradient(to left, #9e26f5, #26033f);
+    }
+
+    .header{
+        border: 7px solid;
+        border-radius: 2%;
+        border-color: black;
+        height: 115px;
+        width: 90%;
+
+        font-size: x-large;
+
+
+        position: absolute;
+        background-color: #fdfbd4;
+        top: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+
+    .honk-title{
+        margin: 0;
+        flex-grow: 1;
+        overflow: hidden;
+        overflow: nowrap;
+        white-space: nowrap;
+
+        padding-left: 15px;
+        font-family: "sans", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-weight: bolder;
+        font-variation-settings:
+          "MORF" 15,
+          "SHLN" 50;
+        
+    }
+
+    .link_to_github{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .header-icon{
+        width: 100px;
+        height: auto;
+        position: relative;
+        border-radius: 0%;
+        padding-right: 15px;
+        cursor: pointer;
+        transition: 0.14s ease-in-out;
+        
+    }
+
+    .header-icon:hover{
+        transform: scale(1.1);
+    }
+
+    .feed{
+        border: 3px solid;
+        border-radius: 2%;
+        border-color: black;
+        height: 65%;
+        width: 90%;
+
+
+
+        position: absolute;
+        background-color: #fdfbd4;
+        top: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .not_ready{
+        display: block;
+        height: 60%;
+        width: auto;
+    }
+
+
